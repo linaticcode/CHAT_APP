@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-9epa)pbam-11!b3!)g9hbp^h5844wg+k6b3^t)b=#&m691l)nf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app' , '127.0.0.1' , 'localhost']
 
 
 # Application definition
@@ -76,8 +76,13 @@ WSGI_APPLICATION = 'djangochat.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        # 'NAME' : BASE_DIR/'db.sqlite3',
+        'NAME': 'railway',
+        'USER' : 'postgres',
+        'PASSWORD' : 'pEKaynfMAuY2EKKkoeQk',
+        'HOST': 'containers-us-west-187.railway.app',
+        'PORT' : '7906',
     }
 }
 
