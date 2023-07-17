@@ -13,3 +13,15 @@ A standard external database POSTGRESQL is used for this project.
 
 ![image](https://github.com/linaticcode/CHAT_APP/assets/105580131/a3b2145f-6db3-4ced-81b5-ed126c273e70)
 
+**Contibutor**
+<table>
+    <tr>
+        <th>
+            <img src="https://avatars.githubusercontent.com/u/105580131?v=4" alt="AC" width = 130px>
+            <br>
+            <a href="https://github.com/linaticcode">Sambhav Sahoo</a>
+        </th>
+    </tr>
+</table>
+
+
